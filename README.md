@@ -10,7 +10,7 @@
 - Both English Sub And Dub Available
 - Fast And Easy To Use
 - Better UI
-- Powered By TechZApi
+- Powered By Riza
 
 <hr>
 
@@ -48,11 +48,10 @@
 
 ### 👤 Contact Me
 
-[![Telegram Channel](https://img.shields.io/static/v1?label=Join&message=Telegram%20Channel&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://telegram.me/TechZBots) [![Telegram Group](https://img.shields.io/static/v1?label=Join&message=Telegram%20Group&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://telegram.me/TechZBots_Support)
+[![Telegram Channel](https://img.shields.io/static/v1?label=Join&message=Telegram%20Channel&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://telegram.me/shanachan) [![Telegram Group](https://img.shields.io/static/v1?label=Join&message=Telegram%20Group&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://telegram.me/TechZBots_Support)
 
 <hr>
 
 ### ⭐ Credits
 
-* [TechZBots](https://t.me/TechZBots)
-* [TechShreyash](https://github.com/TechShreyash)
+* [JadwalAnime](https://t.me/+9kqJHr06VFBhMDRl)
