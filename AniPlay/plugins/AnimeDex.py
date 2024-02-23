@@ -8,14 +8,14 @@ class AnimeDex:
         pass
 
     def search(query):
-        url = "https://api.anime-dex.workers.dev/search/" + str(
-            urllib.parse.quote(query)
+        url = "https://latipharkat-api.my.id/api/otakudesu/search/" + str(
+            urllib.parse.quote(keyword)
         )
         data = requests.get(url).json()["results"]
         return data
 
     def anime(id):
-        data = requests.get("https://api.anime-dex.workers.dev/anime/" + id).json()[
+        data = requests.get("https://kumanimeapi.vercel.app/api/anime/" + slug).json()[
             "results"
         ]
         if data["source"] != "gogoanime":
@@ -26,7 +26,7 @@ class AnimeDex:
         img = data["image"]
 
         for i, j in data.items():
-            if i not in ["name", "image", "id", "plot_summary", "source", "episodes"]:
+            if i not in ["name", "image", "slug", "plot_summary", "source", "episodes"]:
                 text += (
                     "\n**" + i.title().strip() + " :** " + j.strip().replace("\n", " ")
                 )
@@ -36,7 +36,7 @@ class AnimeDex:
         return img, text, data["episodes"]
 
     def episode(id):
-        data = requests.get("https://api.anime-dex.workers.dev/episode/" + id).json()[
+        data = requests.get("https://kumanimeapi.vercel.app/api/episode/" + slug).json()[
             "results"
         ]
         text = data["name"]
