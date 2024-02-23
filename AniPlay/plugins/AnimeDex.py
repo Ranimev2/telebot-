@@ -7,14 +7,14 @@ class AnimeDex:
     def __init__(self) -> None:
         pass
 
-    def search(query):
+    def search(keyword):
         url = "https://latipharkat-api.my.id/api/otakudesu/search/" + str(
             urllib.parse.quote(keyword)
         )
         data = requests.get(url).json()["results"]
         return data
 
-    def anime(id):
+    def anime(slug):
         data = requests.get("https://kumanimeapi.vercel.app/api/anime/" + slug).json()[
             "results"
         ]
@@ -35,7 +35,7 @@ class AnimeDex:
 
         return img, text, data["episodes"]
 
-    def episode(id):
+    def episode(slug):
         data = requests.get("https://kumanimeapi.vercel.app/api/episode/" + slug).json()[
             "results"
         ]
